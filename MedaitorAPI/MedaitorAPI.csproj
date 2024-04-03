@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.17" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.17">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.17">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Core\" />
+    <None Remove="Core\Repository\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Abstract\" />
+    <None Remove="Repositories\Concretes\" />
+    <None Remove="Repositories\Context\" />
+    <None Remove="Features\" />
+    <None Remove="Features\UserFeature\" />
+    <None Remove="Features\UserFeature\DTO%27s\" />
+    <None Remove="Features\UserFeature\Commands\" />
+    <None Remove="Features\UserFeature\Profiles\" />
+    <None Remove="Features\UserFeature\Queries\" />
+    <None Remove="Features\BookFeature\" />
+    <None Remove="Features\BookFeature\DTOs\" />
+    <None Remove="Features\BookFeature\Queries\" />
+    <None Remove="Features\BookFeature\Commands\" />
+    <None Remove="Features\BookFeature\Profiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Repository\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Abstract\" />
+    <Folder Include="Repositories\Concretes\" />
+    <Folder Include="Repositories\Context\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\UserFeature\" />
+    <Folder Include="Features\UserFeature\DTO%27s\" />
+    <Folder Include="Features\UserFeature\Commands\" />
+    <Folder Include="Features\UserFeature\Profiles\" />
+    <Folder Include="Features\UserFeature\Queries\" />
+    <Folder Include="Features\BookFeature\" />
+    <Folder Include="Features\BookFeature\DTOs\" />
+    <Folder Include="Features\BookFeature\Queries\" />
+    <Folder Include="Features\BookFeature\Commands\" />
+    <Folder Include="Features\BookFeature\Profiles\" />
+  </ItemGroup>
+</Project>

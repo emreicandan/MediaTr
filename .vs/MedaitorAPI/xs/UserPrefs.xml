@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{897219A7-0E89-441A-80C2-5E722D37672D}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedaitorAPI/Features/BookFeature/Queries/BookListQuery.cs">
+    <Files>
+      <File FileName="MedaitorAPI/Features/BookFeature/Queries/BookListQuery.cs" Line="24" Column="60" />
+      <File FileName="MedaitorAPI/Features/UserFeature/Queries/UserListQuery.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MedaitorAPI" expanded="True">
+            <Node name="MedaitorAPI" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MedaitorAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
