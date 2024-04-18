@@ -1,24 +1,50 @@
-﻿<Properties StartupConfiguration="{897219A7-0E89-441A-80C2-5E722D37672D}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MedaitorAPI/Features/BookFeature/Queries/BookListQuery.cs">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{897219A7-0E89-441A-80C2-5E722D37672D}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedaitorAPI/Middlewares/WebSocketMiddleware.cs">
     <Files>
-      <File FileName="MedaitorAPI/Features/BookFeature/Queries/BookListQuery.cs" Line="24" Column="60" />
+      <File FileName="MedaitorAPI/Features/BookFeature/Queries/BookListQuery.cs" />
       <File FileName="MedaitorAPI/Features/UserFeature/Queries/UserListQuery.cs" />
+      <File FileName="MedaitorAPI/Features/UserFeature/Commands/UpdateUserCommand.cs" />
+      <File FileName="MedaitorAPI/Features/BookFeature/Commands/UpdateBookCommand.cs" />
+      <File FileName="MedaitorAPI/Features/UserFeature/Commands/DeleteUserCommand.cs" />
+      <File FileName="MedaitorAPI/Features/UserFeature/Rules/UserBusinessRules.cs" />
+      <File FileName="MedaitorAPI/Features/UserFeature/Commands/AddUserCommand.cs" />
+      <File FileName="MedaitorAPI/Program.cs" />
+      <File FileName="MedaitorAPI/Utilities/MapperExtensions.cs" />
+      <File FileName="MedaitorAPI/Middlewares/WebSocketMiddleware.cs" Line="7" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MedaitorAPI" expanded="True">
-            <Node name="MedaitorAPI" expanded="True" />
+            <Node name="MedaitorAPI">
+              <Node name="Core" expanded="True">
+                <Node name="Repository" expanded="True" />
+              </Node>
+              <Node name="Features" expanded="True">
+                <Node name="BookFeature" expanded="True">
+                  <Node name="Commands" expanded="True" />
+                  <Node name="Queries" expanded="True" />
+                </Node>
+                <Node name="UserFeature" expanded="True">
+                  <Node name="Queries" expanded="True" />
+                  <Node name="Rules" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Middlewares" expanded="True">
+                <Node name="WebSocketMiddleware.cs" selected="True" />
+              </Node>
+              <Node name="Utilities" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MedaitorAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MedaitorAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
